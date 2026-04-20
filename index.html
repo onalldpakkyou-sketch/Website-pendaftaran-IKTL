@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa Baru - IKTL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">IKTL</span>
+                    <span class="logo-sub">Institut Keguruan &amp; Teknologi Larantuka</span>
+                </div>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="visi_misi.html">Visi &amp; Misi</a></li>
+                <li><a href="syarat.html">Syarat Pendaftaran</a></li>
+                <li><a href="#formulir" class="btn-nav">Daftar Sekarang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">📚 Pendaftaran Mahasiswa Baru 2026/2027</span>
+            <h1>Selamat Datang di<br>
+                <span class="highlight">Institut Keguruan dan<br>Teknologi Larantuka</span>
+            </h1>
+            <p>Mencetak generasi unggul, berkarakter, dan siap bersaing di era digital. Bergabunglah bersama kami untuk masa depan yang lebih cerah.</p>
+            <div class="hero-buttons">
+                <a href="#formulir" class="btn btn-primary"><i class="fas fa-edit"></i> Daftar Sekarang</a>
+                <a href="syarat.html" class="btn btn-outline"><i class="fas fa-list-check"></i> Lihat Syarat</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Program Studi</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">2000+</span>
+                    <span class="stat-label">Mahasiswa Aktif</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Alumni Sukses</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROGRAM STUDI ========== -->
+    <section class="section program-studi">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Program Studi</span>
+                <h2>Pilihan Program Studi Unggulan</h2>
+                <p>Pilih program studi yang sesuai dengan minat dan bakat Anda</p>
+            </div>
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="program-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Pendidikan Bahasa &amp; Sastra Indonesia</h3>
+                    <p>Mencetak tenaga pendidik profesional dalam bidang bahasa dan sastra Indonesia.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Pendidikan Bahasa Inggris</h3>
+                    <p>Mempersiapkan pendidik bahasa Inggris yang kompeten dan berdaya saing global.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Teknik Informatika</h3>
+                    <p>Mengembangkan SDM unggul di bidang teknologi informasi dan komputer.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Pendidikan Matematika</h3>
+                    <p>Membentuk pendidik matematika yang profesional dan inovatif.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Pendidikan Guru SD</h3>
+                    <p>Mempersiapkan guru sekolah dasar yang berkualitas dan berkarakter.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Pendidikan Biologi</h3>
+                    <p>Mencetak pendidik biologi yang mampu mengembangkan ilmu pengetahuan alam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BIAYA PENDAFTARAN ========== -->
+    <section class="section biaya-section">
+        <div class="container">
+            <div class="biaya-card">
+                <div class="biaya-content">
+                    <span class="section-badge">Biaya Pendaftaran</span>
+                    <h2>Uang Pendaftaran Mahasiswa Baru</h2>
+                    <div class="biaya-amount">
+                        <span class="currency">Rp</span>
+                        <span class="amount">200.000</span>
+                    </div>
+                    <p>Biaya pendaftaran sudah termasuk:</p>
+                    <ul class="biaya-list">
+                        <li><i class="fas fa-check-circle"></i> Formulir pendaftaran online</li>
+                        <li><i class="fas fa-check-circle"></i> Tes seleksi masuk</li>
+                        <li><i class="fas fa-check-circle"></i> Berkas pendaftaran</li>
+                        <li><i class="fas fa-check-circle"></i> Kartu peserta seleksi</li>
+                    </ul>
+                </div>
+                <div class="biaya-image">
+                    <div class="biaya-visual">
+                        <i class="fas fa-university"></i>
+                        <span>IKTL Larantuka</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FORMULIR PENDAFTARAN ========== -->
+    <section class="section form-section" id="formulir">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Formulir</span>
+                <h2>Formulir Pendaftaran Mahasiswa Baru</h2>
+                <p>Silakan isi formulir di bawah ini dengan data yang benar dan lengkap</p>
+            </div>
+
+            <div class="form-wrapper">
+                <div class="form-progress">
+                    <div class="progress-step active" data-step="1">
+                        <div class="step-circle">1</div>
+                        <span>Data Pribadi</span>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="2">
+                        <div class="step-circle">2</div>
+                        <span>Data Pendidikan</span>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="3">
+                        <div class="step-circle">3</div>
+                        <span>Program Studi</span>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="4">
+                        <div class="step-circle">4</div>
+                        <span>Konfirmasi</span>
+                    </div>
+                </div>
+
+                <form class="registration-form" id="registrationForm" novalidate>
+                    <!-- Step 1: Data Pribadi -->
+                    <div class="form-step active" data-step="1">
+                        <h3><i class="fas fa-user"></i> Data Pribadi</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="namaLengkap">Nama Lengkap <span class="required">*</span></label>
+                                <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Masukkan nama lengkap" required>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="nik">NIK (No. KTP) <span class="required">*</span></label>
+                                <input type="text" id="nik" name="nik" placeholder="16 digit NIK" maxlength="16" required>
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="tempatLahir">Tempat Lahir <span class="required">*</span></label>
+                                <input type="text" id="tempatLahir" name="tempatLahir" placeholder="Contoh: Larantuka" required>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tanggalLahir">Tanggal Lahir <span class="required">*</span></label>
+                                <input type="date" id="tanggalLahir" name="tanggalLahir" required>
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="jenisKelamin">Jenis Kelamin <span class="required">*</span></label>
+                                <select id="jenisKelamin" name="jenisKelamin" required>
+                                    <option value="">-- Pilih --</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="agama">Agama <span class="required">*</span></label>
+                                <select id="agama" name="agama" required>
+                                    <option value="">-- Pilih --</option>
+                                    <option value="Islam">Islam</option>
+                                    <option value="Kristen Protestan">Kristen Protestan</option>
+                                    <option value="Katolik">Katolik</option>
+                                    <option value="Hindu">Hindu</option>
+                                    <option value="Buddha">Buddha</option>
+                                    <option value="Konghucu">Konghucu</option>
+                                </select>
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="noHP">No. Handphone / WhatsApp <span class="required">*</span></label>
+                                <input type="tel" id="noHP" name="noHP" placeholder="Contoh: 081234567890" required>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="alamat">Alamat Lengkap <span class="required">*</span></label>
+                            <textarea id="alamat" name="alamat" rows="3" placeholder="Masukkan alamat lengkap" required></textarea>
+                            <span class="error-msg"></span>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-next" data-next="2">
+                            Selanjutnya <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Step 2: Data Pendidikan -->
+                    <div class="form-step" data-step="2">
+                        <h3><i class="fas fa-school"></i> Data Pendidikan</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="asalSekolah">Asal Sekolah <span class="required">*</span></label>
+                                <input type="text" id="asalSekolah" name="asalSekolah" placeholder="Nama sekolah asal" required>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="jurusanSekolah">Jurusan <span class="required">*</span></label>
+                                <select id="jurusanSekolah" name="jurusanSekolah" required>
+                                    <option value="">-- Pilih --</option>
+                                    <option value="IPA">IPA</option>
+                                    <option value="IPS">IPS</option>
+                                    <option value="Bahasa">Bahasa</option>
+                                    <option value="Teknik">Teknik</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="tahunLulus">Tahun Lulus <span class="required">*</span></label>
+                                <input type="number" id="tahunLulus" name="tahunLulus" placeholder="Contoh: 2025" min="2020" max="2026" required>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="nilaiRata">Nilai Rata-rata / Rapor</label>
+                                <input type="number" id="nilaiRata" name="nilaiRata" placeholder="Contoh: 85.5" step="0.01" min="0" max="100">
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="prestasi">Prestasi (jika ada)</label>
+                            <textarea id="prestasi" name="prestasi" rows="3" placeholder="Tuliskan prestasi yang pernah diraih (opsional)"></textarea>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn btn-outline btn-prev" data-prev="1">
+                                <i class="fas fa-arrow-left"></i> Kembali
+                            </button>
+                            <button type="button" class="btn btn-primary btn-next" data-next="3">
+                                Selanjutnya <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Program Studi -->
+                    <div class="form-step" data-step="3">
+                        <h3><i class="fas fa-book"></i> Pilihan Program Studi</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prodi1">Pilihan Prodi 1 <span class="required">*</span></label>
+                                <select id="prodi1" name="prodi1" required>
+                                    <option value="">-- Pilih Program Studi --</option>
+                                    <option value="Pendidikan Bahasa & Sastra Indonesia">Pendidikan Bahasa & Sastra Indonesia</option>
+                                    <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+                                    <option value="Teknik Informatika">Teknik Informatika</option>
+                                    <option value="Pendidikan Matematika">Pendidikan Matematika</option>
+                                    <option value="Pendidikan Guru SD">Pendidikan Guru SD</option>
+                                    <option value="Pendidikan Biologi">Pendidikan Biologi</option>
+                                </select>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="prodi2">Pilihan Prodi 2</label>
+                                <select id="prodi2" name="prodi2">
+                                    <option value="">-- Pilih Program Studi --</option>
+                                    <option value="Pendidikan Bahasa & Sastra Indonesia">Pendidikan Bahasa & Sastra Indonesia</option>
+                                    <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+                                    <option value="Teknik Informatika">Teknik Informatika</option>
+                                    <option value="Pendidikan Matematika">Pendidikan Matematika</option>
+                                    <option value="Pendidikan Guru SD">Pendidikan Guru SD</option>
+                                    <option value="Pendidikan Biologi">Pendidikan Biologi</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="biayaPendaftaran">Biaya Pendaftaran</label>
+                                <input type="text" id="biayaPendaftaran" value="Rp 200.000" readonly class="readonly-input">
+                            </div>
+                            <div class="form-group">
+          
